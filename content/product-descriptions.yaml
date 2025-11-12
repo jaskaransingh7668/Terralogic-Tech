@@ -1,0 +1,21 @@
+# Custom Product Descriptions
+# Add your AI-generated or manually written product descriptions here
+# Format: product_key: "description text"
+
+# Example:
+# ergonomic_mesh_office_chair: "A solid budget option with breathable mesh back, adjustable height, and lumbar support. Great for those starting their home office on a budget."
+# premium_ergonomic_chair: "Top-tier comfort and support with fully adjustable everything. Built to last with premium materials and designed for 8+ hour workdays."
+
+# Leave empty to use Amazon's default product descriptions
+# Add your custom descriptions below:
+
+---
+# Chairs
+
+# Desks
+
+# Monitors
+
+# Lighting
+
+# Audio-Video

@@ -1,0 +1,101 @@
+# TerraLogic Tech - Automation Configuration
+# Configure your product categories and automation settings here
+
+# Amazon PA-API Settings
+amazon:
+  region: us-east-1
+  marketplace: www.amazon.com
+  # Credentials are set via environment variables:
+  # AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, AMAZON_ASSOCIATE_TAG
+
+# Product Categories Configuration
+categories:
+  chairs:
+    name: "Office Chairs"
+    keywords: "ergonomic office chair home office"
+    max_products: 6
+    search_index: "OfficeProducts"
+    filters:
+      min_rating: 4.0
+      min_reviews: 100
+      price_min: 100
+      price_max: 1000
+    emoji: "🪑"
+
+  desks:
+    name: "Desks"
+    keywords: "standing desk home office desk"
+    max_products: 6
+    search_index: "OfficeProducts"
+    filters:
+      min_rating: 4.0
+      min_reviews: 50
+      price_min: 100
+      price_max: 1200
+    emoji: "🖥️"
+
+  monitors:
+    name: "Monitors"
+    keywords: "computer monitor 4K display"
+    max_products: 6
+    search_index: "Electronics"
+    filters:
+      min_rating: 4.0
+      min_reviews: 100
+      price_min: 100
+      price_max: 800
+    emoji: "💻"
+
+  lighting:
+    name: "Lighting"
+    keywords: "desk lamp LED office lighting"
+    max_products: 6
+    search_index: "OfficeProducts"
+    filters:
+      min_rating: 4.0
+      min_reviews: 50
+      price_min: 20
+      price_max: 150
+    emoji: "💡"
+
+  audio-video:
+    name: "Audio & Video"
+    keywords: "webcam headset microphone home office"
+    max_products: 6
+    search_index: "Electronics"
+    filters:
+      min_rating: 4.0
+      min_reviews: 100
+      price_min: 30
+      price_max: 300
+    emoji: "🎧"
+
+# Automation Schedule (for GitHub Actions)
+automation:
+  # How often to update products (cron format)
+  schedule:
+    products: "0 0 * * 1"  # Every Monday at midnight
+    prices: "0 0 * * *"    # Daily at midnight
+
+  # Auto-deployment settings
+  auto_deploy: true
+  commit_message: "🤖 Auto-update: Products and prices refreshed"
+
+# Content Generation Settings
+content:
+  # Whether to use AI-generated descriptions
+  use_ai_descriptions: false  # Set to true if you add AI API later
+
+  # Default description template (used when custom description not provided)
+  default_description_template: "Quality {category} for your home office workspace. Highly rated by customers."
+
+# Website Settings
+website:
+  base_url: ""  # Will be filled after GitHub Pages deployment
+  site_name: "TerraLogic Tech"
+  tagline: "Curated product recommendations for your home office"
+
+# Notification Settings (optional)
+notifications:
+  enabled: false
+  # Add email or webhook URL here if you want notifications

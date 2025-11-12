@@ -1,0 +1,73 @@
+# TerraLogic Tech - Git Ignore File
+# Files and directories that should NOT be committed to GitHub
+
+# Environment variables and secrets
+.env
+*.env
+secrets.env
+automation/.env
+automation/secrets.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+automation/venv/
+automation/env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+automation/*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+.pytest_cache/
+
+# Personal notes (optional)
+notes.txt
+TODO.txt
+
+# Backup files (keep backups local, not in repo)
+backup/
+*.backup
+
+# Do NOT ignore these (they should be committed)
+!automation/secrets.example.env
+!automation/requirements.txt
+!automation/config.yaml
+!automation/products.json

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact TerraLogic Tech - Get in touch with questions, feedback, or suggestions about our home office product recommendations.">
+  <title>Contact Us | TerraLogic Tech</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🏢</span>
+        <span class="logo-text">TerraLogic Tech</span>
+      </a>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="index.html#categories" class="nav-link">Categories</a></li>
+        <li><a href="index.html#blog" class="nav-link">Blog</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        <li><a href="index.html#categories" class="btn-header">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="category-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Contact</span>
+      </div>
+      <h1 class="category-title">Get In Touch</h1>
+      <p class="category-description">Have questions, feedback, or suggestions? We'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="section">
+    <div class="container" style="max-width: 800px;">
+
+      <div style="background: white; padding: var(--space-xl); border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
+
+        <h2 style="margin-bottom: var(--space-md);">Send Us a Message</h2>
+        <p style="margin-bottom: var(--space-xl); line-height: 1.7; color: var(--text-secondary);">
+          Fill out the form below and we'll get back to you as soon as possible.
+        </p>
+
+        <form id="contactForm" style="display: flex; flex-direction: column; gap: var(--space-lg);">
+
+          <div>
+            <label for="name" style="display: block; margin-bottom: var(--space-xs); font-weight: 600; color: var(--text-primary);">
+              Name <span style="color: var(--primary-color);">*</span>
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              style="width: 100%; padding: var(--space-sm); border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: var(--font-size-base); font-family: var(--font-primary);"
+              placeholder="Your name"
+            >
+          </div>
+
+          <div>
+            <label for="email" style="display: block; margin-bottom: var(--space-xs); font-weight: 600; color: var(--text-primary);">
+              Email <span style="color: var(--primary-color);">*</span>
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              style="width: 100%; padding: var(--space-sm); border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: var(--font-size-base); font-family: var(--font-primary);"
+              placeholder="your.email@example.com"
+            >
+          </div>
+
+          <div>
+            <label for="subject" style="display: block; margin-bottom: var(--space-xs); font-weight: 600; color: var(--text-primary);">
+              Subject <span style="color: var(--primary-color);">*</span>
+            </label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              style="width: 100%; padding: var(--space-sm); border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: var(--font-size-base); font-family: var(--font-primary);"
+              placeholder="What is this about?"
+            >
+          </div>
+
+          <div>
+            <label for="message" style="display: block; margin-bottom: var(--space-xs); font-weight: 600; color: var(--text-primary);">
+              Message <span style="color: var(--primary-color);">*</span>
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              rows="6"
+              style="width: 100%; padding: var(--space-sm); border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: var(--font-size-base); font-family: var(--font-primary); resize: vertical;"
+              placeholder="Your message..."
+            ></textarea>
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">
+              Send Message
+            </button>
+          </div>
+
+          <div id="formMessage" style="display: none; padding: var(--space-md); border-radius: var(--radius-md); text-align: center;"></div>
+
+        </form>
+
+      </div>
+
+      <!-- Additional Contact Info -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); margin-top: var(--space-xl);">
+
+        <div style="background: white; padding: var(--space-lg); border-radius: var(--radius-lg); border: 1px solid var(--border-color); text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">📧</div>
+          <h3 style="margin-bottom: var(--space-sm);">Email Us</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 0; font-size: var(--font-size-sm);">
+            Response time: 24-48 hours
+          </p>
+        </div>
+
+        <div style="background: white; padding: var(--space-lg); border-radius: var(--radius-lg); border: 1px solid var(--border-color); text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">💬</div>
+          <h3 style="margin-bottom: var(--space-sm);">Feedback</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 0; font-size: var(--font-size-sm);">
+            We value your input and suggestions
+          </p>
+        </div>
+
+        <div style="background: white; padding: var(--space-lg); border-radius: var(--radius-lg); border: 1px solid var(--border-color); text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">❓</div>
+          <h3 style="margin-bottom: var(--space-sm);">Questions</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 0; font-size: var(--font-size-sm);">
+            Ask us anything about products
+          </p>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div style="background: var(--bg-secondary); padding: var(--space-xl); border-radius: var(--radius-lg); margin-top: var(--space-xl);">
+        <h2 style="margin-bottom: var(--space-lg); text-align: center;">Common Questions</h2>
+
+        <div style="margin-bottom: var(--space-lg);">
+          <h3 style="margin-bottom: var(--space-sm); color: var(--primary-color);">Do you test products yourself?</h3>
+          <p style="margin-bottom: 0; line-height: 1.7;">
+            We don't personally test every product. Instead, we research customer reviews, ratings, and specifications from Amazon and other sources to provide informed recommendations.
+          </p>
+        </div>
+
+        <div style="margin-bottom: var(--space-lg);">
+          <h3 style="margin-bottom: var(--space-sm); color: var(--primary-color);">How do you make money?</h3>
+          <p style="margin-bottom: 0; line-height: 1.7;">
+            We earn commissions from qualifying purchases made through our Amazon affiliate links. This doesn't affect the price you pay. Learn more on our <a href="affiliate-disclosure.html" style="color: var(--primary-color); text-decoration: none; font-weight: 600;">Affiliate Disclosure</a> page.
+          </p>
+        </div>
+
+        <div style="margin-bottom: var(--space-lg);">
+          <h3 style="margin-bottom: var(--space-sm); color: var(--primary-color);">Can you recommend specific products for my needs?</h3>
+          <p style="margin-bottom: 0; line-height: 1.7;">
+            While we provide general recommendations and buying guides, we can't offer personalized advice for specific situations. Our product categories and guides are designed to help you make informed decisions based on your budget and requirements.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 0;">
+          <h3 style="margin-bottom: var(--space-sm); color: var(--primary-color);">How often do you update product information?</h3>
+          <p style="margin-bottom: 0; line-height: 1.7;">
+            We regularly review and update our product recommendations to ensure they reflect current availability and pricing. However, prices and availability on Amazon can change frequently.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <span class="logo-icon">🏢</span>
+            <span class="logo-text">TerraLogic Tech</span>
+          </div>
+          <p class="footer-tagline">Curated product recommendations and buying guides for your home office</p>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#categories">Categories</a></li>
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="categories/desks.html">Desks</a></li>
+            <li><a href="categories/chairs.html">Chairs</a></li>
+            <li><a href="categories/monitors.html">Monitors</a></li>
+            <li><a href="categories/lighting.html">Lighting</a></li>
+            <li><a href="categories/audio-video.html">Audio & Video</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TerraLogic Tech. All rights reserved.</p>
+        <p class="affiliate-notice">As an Amazon Associate, we earn from qualifying purchases.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Contact form handler
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const formMessage = document.getElementById('formMessage');
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const subject = document.getElementById('subject').value;
+      const message = document.getElementById('message').value;
+
+      // Store in localStorage for now (replace with actual backend later)
+      const contactData = {
+        name,
+        email,
+        subject,
+        message,
+        timestamp: new Date().toISOString()
+      };
+
+      // Get existing contacts or initialize array
+      const contacts = JSON.parse(localStorage.getItem('contact_submissions') || '[]');
+      contacts.push(contactData);
+      localStorage.setItem('contact_submissions', JSON.stringify(contacts));
+
+      // Show success message
+      formMessage.style.display = 'block';
+      formMessage.style.backgroundColor = '#d1fae5';
+      formMessage.style.color = '#065f46';
+      formMessage.style.border = '1px solid #10b981';
+      formMessage.textContent = '✓ Thank you for your message! We\'ll get back to you within 24-48 hours.';
+
+      // Reset form
+      this.reset();
+
+      // Hide message after 5 seconds
+      setTimeout(() => {
+        formMessage.style.display = 'none';
+      }, 5000);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "last_updated": "2025-11-12T00:00:00",
+  "products": {
+    "chairs": [],
+    "desks": [],
+    "monitors": [],
+    "lighting": [],
+    "audio-video": []
+  },
+  "note": "This file will be populated automatically when Amazon PA-API credentials are added and automation runs."
+}

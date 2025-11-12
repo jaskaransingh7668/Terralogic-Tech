@@ -1,0 +1,13 @@
+# TerraLogic Tech - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+PyYAML==6.0.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# HTML parsing
+lxml==4.9.3
+
+# Optional: For enhanced features
+python-dotenv==1.0.0
