@@ -1,0 +1,146 @@
+# TerraLogic Tech - Manual Product Configuration
+# Copy this file to: products-manual.yaml and fill in your products
+
+# HOW TO USE:
+# 1. Find products on Amazon
+# 2. Copy the ASIN (found in product URL: amazon.com/dp/ASIN)
+# 3. Copy product name, price, features
+# 4. Generate affiliate link using Amazon SiteStripe
+# 5. Fill in the fields below
+# 6. Run: python automation/manual_updater.py
+# 7. Push to GitHub!
+
+products:
+  # ============================================
+  # OFFICE CHAIRS
+  # ============================================
+  chairs:
+    - name: "Ergonomic Mesh Office Chair with Lumbar Support"
+      asin: "B08XYZ123"  # Get from Amazon URL: amazon.com/dp/B08XYZ123
+      price_range: "$150-200"
+      tier: "budget"  # Options: budget, mid, premium
+      description: "A solid budget option with breathable mesh back, adjustable height, and lumbar support. Great for those starting their home office on a budget."
+      features:
+        - "Breathable mesh backrest"
+        - "Adjustable seat height"
+        - "Built-in lumbar support"
+        - "Swivel base with smooth casters"
+      image_url: ""  # Optional: paste Amazon image URL
+      affiliate_url: "https://www.amazon.com/dp/B08XYZ123?tag=yourname-20"
+      rating: 4.5
+      review_count: 500
+
+    - name: "Executive Leather Office Chair"
+      asin: "B09ABC456"
+      price_range: "$250-350"
+      tier: "mid"
+      description: "Professional look with bonded leather upholstery. Padded armrests and high back design for a classic executive style."
+      features:
+        - "Bonded leather upholstery"
+        - "Padded armrests"
+        - "High-back design"
+        - "Tilt and lock mechanism"
+      image_url: ""
+      affiliate_url: "https://www.amazon.com/dp/B09ABC456?tag=yourname-20"
+      rating: 4.3
+      review_count: 350
+
+    # Add more chairs here (up to 6 total recommended)
+
+  # ============================================
+  # DESKS
+  # ============================================
+  desks:
+    - name: "Electric Standing Desk with Memory Preset"
+      asin: "B07DEF789"
+      price_range: "$300-500"
+      tier: "mid"
+      description: "Adjustable height desk that transitions smoothly from sitting to standing. Memory presets let you save your favorite heights."
+      features:
+        - "Electric height adjustment"
+        - "Memory preset buttons"
+        - "Spacious desktop (48x24 inches)"
+        - "Sturdy steel frame"
+      image_url: ""
+      affiliate_url: "https://www.amazon.com/dp/B07DEF789?tag=yourname-20"
+      rating: 4.6
+      review_count: 800
+
+    # Add more desks here
+
+  # ============================================
+  # MONITORS
+  # ============================================
+  monitors:
+    - name: "27-inch 4K UHD Monitor"
+      asin: "B08GHI012"
+      price_range: "$300-400"
+      tier: "mid"
+      description: "Crystal-clear 4K display perfect for productivity and content creation. HDMI and DisplayPort connectivity."
+      features:
+        - "27-inch 4K UHD (3840x2160)"
+        - "IPS panel with wide viewing angles"
+        - "HDR10 support"
+        - "Multiple ports (HDMI, DP, USB-C)"
+      image_url: ""
+      affiliate_url: "https://www.amazon.com/dp/B08GHI012?tag=yourname-20"
+      rating: 4.7
+      review_count: 1200
+
+    # Add more monitors here
+
+  # ============================================
+  # LIGHTING
+  # ============================================
+  lighting:
+    - name: "LED Desk Lamp with USB Charging Port"
+      asin: "B09JKL345"
+      price_range: "$30-50"
+      tier: "budget"
+      description: "Adjustable LED desk lamp with multiple brightness levels and color temperatures. Built-in USB port for charging devices."
+      features:
+        - "Adjustable arm and head"
+        - "5 brightness levels"
+        - "3 color temperature modes"
+        - "USB charging port"
+      image_url: ""
+      affiliate_url: "https://www.amazon.com/dp/B09JKL345?tag=yourname-20"
+      rating: 4.4
+      review_count: 600
+
+    # Add more lighting here
+
+  # ============================================
+  # AUDIO & VIDEO
+  # ============================================
+  audio-video:
+    - name: "1080p HD Webcam with Built-in Microphone"
+      asin: "B08MNO678"
+      price_range: "$60-100"
+      tier: "mid"
+      description: "Clear 1080p video quality for video calls and streaming. Auto-focus and light correction ensure you always look your best."
+      features:
+        - "Full HD 1080p at 30fps"
+        - "Auto-focus and light correction"
+        - "Built-in dual microphones"
+        - "Works with all video platforms"
+      image_url: ""
+      affiliate_url: "https://www.amazon.com/dp/B08MNO678?tag=yourname-20"
+      rating: 4.5
+      review_count: 900
+
+    # Add more audio-video products here
+
+
+# ============================================
+# NOTES:
+# ============================================
+# - ASIN: Found in product URL (amazon.com/dp/ASIN)
+# - Tier: budget, mid, or premium (affects badge color)
+# - Features: List 4-5 key bullet points
+# - Affiliate URL: Use Amazon SiteStripe to generate
+# - Price range: Approximate range (e.g., "$150-200")
+# - Description: 2-3 sentences about the product
+# - Image URL: Optional, leave blank to use emoji
+# - Rating: Out of 5 stars
+# - Review count: Approximate number of reviews

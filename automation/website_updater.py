@@ -25,7 +25,7 @@ class WebsiteUpdater:
     def load_config(self, config_path: str) -> Dict:
         """Load configuration from YAML"""
         try:
-            with open(config_path, 'r') as f:
+            with open(config_path, 'r', encoding='utf-8') as f:
                 return yaml.safe_load(f)
         except FileNotFoundError:
             print(f"Warning: Config file not found at {config_path}")
@@ -34,7 +34,7 @@ class WebsiteUpdater:
     def load_products(self, products_path: str = "automation/products.json") -> Dict:
         """Load products from JSON file"""
         try:
-            with open(products_path, 'r') as f:
+            with open(products_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 return data.get('products', {})
         except FileNotFoundError:
@@ -44,7 +44,7 @@ class WebsiteUpdater:
     def load_custom_descriptions(self, desc_path: str = "content/product-descriptions.yaml") -> Dict:
         """Load custom product descriptions"""
         try:
-            with open(desc_path, 'r') as f:
+            with open(desc_path, 'r', encoding='utf-8') as f:
                 return yaml.safe_load(f) or {}
         except FileNotFoundError:
             return {}
