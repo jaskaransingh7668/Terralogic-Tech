@@ -8,7 +8,7 @@ products:
   chairs:
     - name: "COMHOMA Executive Ergonomic Office Chair with Footrest"
       asin: "B0FP28DWVQ"
-      price_range: "$100-150"
+      price_range: "$150-180"
       tier: "mid"
       description: "Comfortable executive office chair with built-in footrest and ergonomic design. Perfect for long work sessions at home."
       features:
