@@ -1,51 +1,27 @@
 # TerraLogic Tech - Manual Product Configuration
-# Copy this file to: products-manual.yaml and fill in your products
-
-# HOW TO USE:
-# 1. Find products on Amazon
-# 2. Copy the ASIN (found in product URL: amazon.com/dp/ASIN)
-# 3. Copy product name, price, features
-# 4. Generate affiliate link using Amazon SiteStripe
-# 5. Fill in the fields below
-# 6. Run: python automation/manual_updater.py
-# 7. Push to GitHub!
+# Your products are configured below
 
 products:
   # ============================================
   # OFFICE CHAIRS
   # ============================================
   chairs:
-    - name: "COMHOMA Big and Tall Office Chair, High Back Leather Gaming Chair with Footrest, Executive Ergonomic Office Chair with Pocket Spring Lumbar Support and with Outward Fixed Soft Armrests"
-      asin: "B0FP28DWVQ"  # Get from Amazon URL: amazon.com/dp/B08XYZ123
-      price: "$159.97"
-      tier: "budget"  # Options: budget, mid, premium
-      description: "Specifically designed for pressure dispersion and body support, the backrest features 3D wrapping lumbar support with dual-layered high-density foam and high-loft fiber, conforming to the curves of your neck, shoulders, and back. The oversized adjustable lumbar pillow provides personalized support, delivering a sofa-like embracing comfort."
+    - name: "COMHOMA Executive Ergonomic Office Chair with Footrest"
+      asin: "B0FP28DWVQ"
+      price_range: "$100-150"
+      tier: "mid"
+      description: "Comfortable executive office chair with built-in footrest and ergonomic design. Perfect for long work sessions at home."
       features:
-        - "Full Body Design"
-        - "Multifunctional Comfortable Seating"
-        - "Durable and Stable Construction"
-        - "Versatile Adjustments for Multiple Scenarios"
-      image_url: ""  # Optional: paste Amazon image URL
-      affiliate_url: "https://www.amazon.com/COMHOMA-Footrest-Executive-Ergonomic-Armrests/dp/B0FP28DWVQ?crid=1Q8QOJU5CE10K&dib=eyJ2IjoiMSJ9.cXPRvNh6tPwg_Zi9RYjtieNelGDsd-S1obeYNPHMPkVmCSONfFXZqOBzMC858Uao6BAEFPHneFIbZftLLPOawbBbVvLirHHDYVICeGlmo3zLNH1Y358gq9NAJRdXkX7gR55uCiVLFUyh-Gl02vvNnLJpax2Cz3n2H_WW-OOlgq8ktTJEyn32X98wqe1b8GE7m9G2bAT0W9Oso5He7b5ltb0fphilIsy1tBwqLUYWuRb6CNVX6OMcrfrkAuBvQK4oGQd-QEbyHpxObfkglRCN1dxHDN47bXgcGlr_zHuwzLs.1udq9uzpSReP0rHCwygVllEifpP2XkYL-3t5jt6G5eA&dib_tag=se&keywords=office%2Bchair&qid=1762983553&sprefix=office%2Bchai%2Caps%2C105&sr=8-9&th=1&linkCode=ll1&tag=bestpickshu03-20&linkId=6ad5a6b2365663e275670df4866732f8&language=en_US&ref_=as_li_ss_tl"
+        - "Built-in adjustable footrest"
+        - "Ergonomic lumbar support"
+        - "Adjustable armrests"
+        - "360-degree swivel"
+      image_url: ""
+      affiliate_url: "https://www.amazon.com/dp/B0FP28DWVQ?tag=bestpickshu03-20"
       rating: 4.5
       review_count: 500
 
-    - name: "Executive Leather Office Chair"
-      asin: "B09ABC456"
-      price_range: "$250-350"
-      tier: "mid"
-      description: "Professional look with bonded leather upholstery. Padded armrests and high back design for a classic executive style."
-      features:
-        - "Bonded leather upholstery"
-        - "Padded armrests"
-        - "High-back design"
-        - "Tilt and lock mechanism"
-      image_url: ""
-      affiliate_url: "https://www.amazon.com/dp/B09ABC456?tag=yourname-20"
-      rating: 4.3
-      review_count: 350
-
-    # Add more chairs here (up to 6 total recommended)
+    # Add more chairs here - just copy the format above
 
   # ============================================
   # DESKS
@@ -62,7 +38,7 @@ products:
         - "Spacious desktop (48x24 inches)"
         - "Sturdy steel frame"
       image_url: ""
-      affiliate_url: "https://www.amazon.com/dp/B07DEF789?tag=yourname-20"
+      affiliate_url: "https://www.amazon.com/dp/B07DEF789?tag=bestpickshu03-20"
       rating: 4.6
       review_count: 800
 
@@ -83,7 +59,7 @@ products:
         - "HDR10 support"
         - "Multiple ports (HDMI, DP, USB-C)"
       image_url: ""
-      affiliate_url: "https://www.amazon.com/dp/B08GHI012?tag=yourname-20"
+      affiliate_url: "https://www.amazon.com/dp/B08GHI012?tag=bestpickshu03-20"
       rating: 4.7
       review_count: 1200
 
@@ -104,7 +80,7 @@ products:
         - "3 color temperature modes"
         - "USB charging port"
       image_url: ""
-      affiliate_url: "https://www.amazon.com/dp/B09JKL345?tag=yourname-20"
+      affiliate_url: "https://www.amazon.com/dp/B09JKL345?tag=bestpickshu03-20"
       rating: 4.4
       review_count: 600
 
@@ -125,22 +101,8 @@ products:
         - "Built-in dual microphones"
         - "Works with all video platforms"
       image_url: ""
-      affiliate_url: "https://www.amazon.com/dp/B08MNO678?tag=yourname-20"
+      affiliate_url: "https://www.amazon.com/dp/B08MNO678?tag=bestpickshu03-20"
       rating: 4.5
       review_count: 900
 
     # Add more audio-video products here
-
-
-# ============================================
-# NOTES:
-# ============================================
-# - ASIN: Found in product URL (amazon.com/dp/ASIN)
-# - Tier: budget, mid, or premium (affects badge color)
-# - Features: List 4-5 key bullet points
-# - Affiliate URL: Use Amazon SiteStripe to generate
-# - Price range: Approximate range (e.g., "$150-200")
-# - Description: 2-3 sentences about the product
-# - Image URL: Optional, leave blank to use emoji
-# - Rating: Out of 5 stars
-# - Review count: Approximate number of reviews

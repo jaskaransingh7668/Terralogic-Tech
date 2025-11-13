@@ -1,24 +1,24 @@
 {
-  "last_updated": "2025-11-12T16:59:42.049181",
+  "last_updated": "2025-11-13T11:13:18.803045",
   "products": {
     "chairs": [
       {
-        "name": "Executive Leather Office Chair",
-        "asin": "B09ABC456",
-        "price": "$250-350",
-        "price_range": "$250-350",
-        "description": "Professional look with bonded leather upholstery. Padded armrests and high back design for a classic executive style.",
+        "name": "COMHOMA Executive Ergonomic Office Chair with Footrest",
+        "asin": "B0FP28DWVQ",
+        "price": "$100-150",
+        "price_range": "$100-150",
+        "description": "Comfortable executive office chair with built-in footrest and ergonomic design. Perfect for long work sessions at home.",
         "features": [
-          "Bonded leather upholstery",
-          "Padded armrests",
-          "High-back design",
-          "Tilt and lock mechanism"
+          "Built-in adjustable footrest",
+          "Ergonomic lumbar support",
+          "Adjustable armrests",
+          "360-degree swivel"
         ],
         "image_url": "",
         "tier": "mid",
-        "affiliate_url": "https://www.amazon.com/dp/B09ABC456?tag=yourname-20",
-        "rating": 4.3,
-        "review_count": 350
+        "affiliate_url": "https://www.amazon.com/dp/B0FP28DWVQ?tag=bestpickshu03-20",
+        "rating": 4.5,
+        "review_count": 500
       }
     ],
     "desks": [
@@ -36,7 +36,7 @@
         ],
         "image_url": "",
         "tier": "mid",
-        "affiliate_url": "https://www.amazon.com/dp/B07DEF789?tag=yourname-20",
+        "affiliate_url": "https://www.amazon.com/dp/B07DEF789?tag=bestpickshu03-20",
         "rating": 4.6,
         "review_count": 800
       }
@@ -56,7 +56,7 @@
         ],
         "image_url": "",
         "tier": "mid",
-        "affiliate_url": "https://www.amazon.com/dp/B08GHI012?tag=yourname-20",
+        "affiliate_url": "https://www.amazon.com/dp/B08GHI012?tag=bestpickshu03-20",
         "rating": 4.7,
         "review_count": 1200
       }
@@ -76,7 +76,7 @@
         ],
         "image_url": "",
         "tier": "budget",
-        "affiliate_url": "https://www.amazon.com/dp/B09JKL345?tag=yourname-20",
+        "affiliate_url": "https://www.amazon.com/dp/B09JKL345?tag=bestpickshu03-20",
         "rating": 4.4,
         "review_count": 600
       }
@@ -96,7 +96,7 @@
         ],
         "image_url": "",
         "tier": "mid",
-        "affiliate_url": "https://www.amazon.com/dp/B08MNO678?tag=yourname-20",
+        "affiliate_url": "https://www.amazon.com/dp/B08MNO678?tag=bestpickshu03-20",
         "rating": 4.5,
         "review_count": 900
       }
