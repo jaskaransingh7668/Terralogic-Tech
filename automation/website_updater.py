@@ -143,10 +143,6 @@ class WebsiteUpdater:
             card_soup = BeautifulSoup(card_html, 'html.parser')
             products_grid.append(card_soup)
 
-        # Add update timestamp comment
-        timestamp_comment = soup.new_string(f'\n    <!-- Last updated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} by automation -->\n    ')
-        products_grid.insert_before(timestamp_comment)
-
         # Write back to file
         with open(category_file, 'w', encoding='utf-8') as f:
             f.write(str(soup.prettify()))
